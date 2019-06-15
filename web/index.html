@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+  Copyright (c) 2017, Cay. All rights reserved. Use of this source code
+  is governed by a BSD-style license that can be found in the LICENSE file.
+-->
+<html>
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">    
+      <meta name="scaffolded-by" content="https://github.com/google/stagehand">
+      <title>tf2SoundBoard</title>
+      <link rel="stylesheet" href="styles.css">
+      <link rel="shortcut icon" href="favicon.ico">
+      <script defer src="index.dart" type="application/dart"></script>
+      <script defer src="packages/browser/dart.js"></script>
+      <link rel="stylesheet" href="font-awesome.min.css">
+  </head>
+
+  <body>
+      <!-- Navigation menu -->
+      <div id="nav">
+        <ul class="nav">
+          <li class="left font-1 font-header">
+            tf2 soundpad<div>
+            <span id="for-her" class="font-2" >For Safa<i class="fa fa-heart" aria-hidden="true"></i></span></div>
+          </li>
+          <li class="right font-2">
+            <button id="favorites"><i class="fa fa-heart" aria-hidden="true"></i></button>
+            <button id="open-selection">Select Class</button>
+          </li>
+        </ul>
+      </div>
+
+      <div id="content">  
+        <!-- Class selection Screen  -->
+        <div id="selection" class="view view-selection flex-middle hidden"></div>
+
+        <!--Pad screen-->
+        <div id="grid" class="view grid"></div>
+      </div>
+  </body>
+</html>
